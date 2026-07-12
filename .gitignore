@@ -1,0 +1,28 @@
+# Environment variables & API keys (CRITICAL - NEVER PUSH)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python virtual environment & cache
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated logs & FAISS index storage
+logs/
+faiss_store/
+*.log
+
+# Private documents / Resumes (keeps personal PDFs private)
+*.pdf
+Resume_final.pdf
+my_docs/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/

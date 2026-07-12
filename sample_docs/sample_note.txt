@@ -1,0 +1,21 @@
+Machine Learning Fundamentals - Quick Reference Notes
+
+Machine learning is a branch of artificial intelligence that focuses on building systems that learn from data. Instead of being explicitly programmed for every scenario, these systems identify patterns in data and use those patterns to make predictions or decisions.
+
+There are three main categories of machine learning. Supervised learning uses labeled data where both inputs and outputs are provided during training. The model learns to map inputs to outputs and can then predict outcomes for new unseen data. Common algorithms include linear regression for continuous outputs and logistic regression for classification tasks. Decision trees and random forests are also popular choices because they handle both numerical and categorical data well.
+
+Unsupervised learning works with data that has no labels. The goal is to discover hidden structure or groupings in the data. K-means clustering is one of the most widely used unsupervised algorithms. It partitions data points into k clusters based on their distance from cluster centers. Principal Component Analysis or PCA is another important technique that reduces the dimensionality of data while preserving as much variance as possible.
+
+Reinforcement learning is the third paradigm where an agent learns by interacting with an environment. The agent takes actions and receives rewards or penalties based on those actions. Over time it learns a policy that maximizes cumulative reward. This approach has been successfully applied in game playing, robotics, and autonomous driving.
+
+Neural networks form the backbone of deep learning which is a subset of machine learning. A neural network consists of layers of interconnected nodes or neurons. Each connection has a weight that gets adjusted during training. The input layer receives raw data, hidden layers perform transformations, and the output layer produces the final prediction. Deep networks with many hidden layers can learn complex representations of data.
+
+Overfitting is a common challenge in machine learning where a model performs well on training data but poorly on new data. Techniques to prevent overfitting include regularization which adds a penalty for model complexity, dropout which randomly disables neurons during training, and cross-validation which tests the model on different subsets of data.
+
+The bias-variance tradeoff is a fundamental concept. High bias means the model is too simple and underfits the data. High variance means the model is too complex and overfits. The goal is to find the sweet spot where both bias and variance are reasonably low.
+
+Feature engineering is the process of selecting and transforming raw data into features that better represent the underlying patterns. Good features can dramatically improve model performance. This includes handling missing values, encoding categorical variables, scaling numerical features, and creating interaction terms between variables.
+
+Model evaluation metrics depend on the task at hand. For classification we commonly use accuracy, precision, recall, and F1 score. For regression tasks common metrics include mean squared error, root mean squared error, and R-squared. Choosing the right metric is crucial because optimizing for the wrong metric can lead to misleading conclusions about model performance.
+
+Transfer learning is an approach where a model trained on one task is reused as the starting point for a different but related task. This is especially powerful in deep learning where training large models from scratch requires enormous amounts of data and computational resources. Pre-trained models like BERT for text and ResNet for images have made state-of-the-art performance accessible to practitioners with limited resources.
