@@ -1,4 +1,4 @@
-# Environment variables & API keys (CRITICAL - NEVER PUSH)
+# Environment variables & API keys
 .env
 *.env
 !.env.example
