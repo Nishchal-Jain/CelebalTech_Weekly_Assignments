@@ -1,6 +1,7 @@
 # Environment variables & API keys (CRITICAL - NEVER PUSH)
 .env
 *.env
+.env.*
 !.env.example
 
 # Python virtual environment & cache
@@ -16,9 +17,10 @@ logs/
 faiss_store/
 *.log
 
-# Private documents / Resumes
+# Private documents / Resumes (keeps personal PDFs private)
 *.pdf
 Resume_final.pdf
+my_docs/
 
 # OS and IDE files
 .DS_Store
